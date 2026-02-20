@@ -1,35 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8" />
-  <title>Enkatr</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ENKATR</title>
   <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #0f172a;
-      color: #ffffff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      text-align: center;
-    }
-    h1 {
-      font-size: 48px;
-      margin-bottom: 10px;
-    }
-    p {
-      font-size: 18px;
-      opacity: 0.8;
-    }
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#0b0b0b;color:#fff}
+    .wrap{max-width:960px;margin:0 auto;padding:48px 20px}
+    .card{border:1px solid #2a2a2a;border-radius:14px;padding:22px;margin-top:18px}
+    .btn{display:inline-block;padding:12px 16px;border-radius:10px;text-decoration:none;margin-right:10px}
+    .btnPrimary{background:#fff;color:#000}
+    .btnGhost{border:1px solid #444;color:#fff}
+    h1{font-size:40px;line-height:1.1;margin:0}
+    p{color:#bdbdbd;font-size:16px;line-height:1.6}
+    ul{margin:0;padding-left:18px;color:#bdbdbd}
+    li{margin:8px 0}
+    footer{margin-top:40px;color:#777;font-size:14px}
   </style>
 </head>
 <body>
-  <div>
-    <h1>enkatr.com</h1>
-    <p>Site yayında 🚀</p>
+  <div class="wrap">
+    <h1>ENKATR<br/>Sosyal Medya Ajansı</h1>
+    <p>Markalar için sosyal medya yönetimi, içerik üretimi ve dijital görünürlük.</p>
+
+    <a class="btn btnPrimary" href="#iletisim">İletişime Geç</a>
+    <a class="btn btnGhost" href="#hizmetler">Hizmetler</a>
+
+    <div id="hizmetler" class="card">
+      <h2>Hizmetler</h2>
+      <ul>
+        <li>Sosyal Medya Yönetimi</li>
+        <li>İçerik (Görsel + Metin)</li>
+        <li>Video & Reels</li>
+        <li>Reklam Yönetimi</li>
+        <li>Raporlama</li>
+      </ul>
+    </div>
+
+    <div id="iletisim" class="card">
+      <h2>İletişim</h2>
+      <p>WhatsApp ve e-posta ekleyeceğiz. Şimdilik burası dursun.</p>
+    </div>
+
+    <footer>© ENKATR</footer>
   </div>
 </body>
 </html>
